@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="KGE 8">
+</Property><Property Name="Solution File" Value="D:\KGE\KGE 8.sln">
+</Property><Property Name="Date" Value="Sunday, March 13, 2011">
+</Property><Property Name="Time" Value="15:40 PM">
+</Property><Property Name="Log Number" Value="5">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="KGE 8.sln" Description="File successfully backed up as D:\KGE\KGE 8.sln.old">
+</Event><Event ErrorLevel="3" Project="KGE 8" Source="KGE 8.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="KGE 8.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="KGE 8.sln" Description="Converted">
+</Event></UpgradeLog>

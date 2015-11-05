@@ -1,0 +1,1493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="kge::core::CPU" Collapsed="true">
+    <Position X="97.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAACAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Headers\core\CPU.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Array&lt;T&gt;" Collapsed="true">
+    <Position X="100.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAACAAAACAAkAAQAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Array.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ArrayPri&lt;T, type&gt;" Collapsed="true">
+    <Position X="102.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAAAAAAAAAEAkAAQAAAQAAAAAAAgAAAAAAABAABA=</HashCode>
+      <FileName>Include\core\ArrayPriority.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor0&lt;Treturn&gt;" Collapsed="true">
+    <Position X="16.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor1&lt;Treturn, Targ1&gt;" Collapsed="true">
+    <Position X="16.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor2&lt;Treturn, Targ1, Targ2&gt;" Collapsed="true">
+    <Position X="16.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor3&lt;Treturn, Targ1, Targ2, Targ3&gt;" Collapsed="true">
+    <Position X="11.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor4&lt;Treturn, Targ1, Targ2, Targ3, Targ4&gt;" Collapsed="true">
+    <Position X="6.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor5&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5&gt;" Collapsed="true">
+    <Position X="1.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor6&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6&gt;" Collapsed="true">
+    <Position X="11.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor7&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7&gt;" Collapsed="true">
+    <Position X="6.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor8&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8&gt;" Collapsed="true">
+    <Position X="1.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor9&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8, Targ9&gt;" Collapsed="true">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Functor10&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8, Targ9, Targ10&gt;" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Functor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::MFunctor0&lt;Tclass, Treturn&gt;" Collapsed="true">
+    <Position X="15.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor1&lt;Tclass, Treturn, Targ1&gt;" Collapsed="true">
+    <Position X="15.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor2&lt;Tclass, Treturn, Targ1, Targ2&gt;" Collapsed="true">
+    <Position X="15.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor3&lt;Tclass, Treturn, Targ1, Targ2, Targ3&gt;" Collapsed="true">
+    <Position X="10.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor4&lt;Tclass, Treturn, Targ1, Targ2, Targ3, Targ4&gt;" Collapsed="true">
+    <Position X="7.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor5&lt;Tclass, Treturn, Targ1, Targ2, Targ3, Targ4, Targ5&gt;" Collapsed="true">
+    <Position X="2.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor6&lt;Tclass, Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6&gt;" Collapsed="true">
+    <Position X="12.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor7&lt;Tclass, Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7&gt;" Collapsed="true">
+    <Position X="7.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor8&lt;Tclass, Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8&gt;" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor9&lt;Tclass, Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8, Targ9&gt;" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::ZFunctor10&lt;Tclass, Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8, Targ9, Targ10&gt;" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAICAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\mem_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor0&lt;Treturn&gt;" Collapsed="true">
+    <Position X="17.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor1&lt;Treturn, Targ1&gt;" Collapsed="true">
+    <Position X="17.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor2&lt;Treturn, Targ1, Targ2&gt;" Collapsed="true">
+    <Position X="17.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor3&lt;Treturn, Targ1, Targ2, Targ3&gt;" Collapsed="true">
+    <Position X="12.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor4&lt;Treturn, Targ1, Targ2, Targ3, Targ4&gt;" Collapsed="true">
+    <Position X="5.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor5&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5&gt;" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor6&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6&gt;" Collapsed="true">
+    <Position X="10.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor7&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7&gt;" Collapsed="true">
+    <Position X="5.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor8&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8&gt;" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor9&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8, Targ9&gt;" Collapsed="true">
+    <Position X="10.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::PFunctor10&lt;Treturn, Targ1, Targ2, Targ3, Targ4, Targ5, Targ6, Targ7, Targ8, Targ9, Targ10&gt;" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Include\core\ptr_fun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::String" Collapsed="true">
+    <Position X="58.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAEAAAAAAACAIQAAAAQAAAAAIAQAQAAEAQAgAggA=</HashCode>
+      <FileName>Include\core\String.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::core::Timer" Collapsed="true">
+    <Position X="67.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAABAAAAAEAIAAAAAIAAAAAACAABAAAEAEAAg=</HashCode>
+      <FileName>Include\core\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlString" Collapsed="true">
+    <Position X="3.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAAAIAAAAEAAAlAsICAQACAAAAAIoAiQERCAABAAA=</HashCode>
+      <FileName>Libs\TinyXML\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlOutStream" Collapsed="true">
+    <Position X="3.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libs\TinyXML\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlVisitor" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlBase" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAgggBQAEAgEAAAQAgBhARASADAQAiAIAAAiAAAkAAA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlNode" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAIAEAEiiBAhEAAYQAEAAqBgCECAYtgAAtAIDA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttribute" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQggAAAgAAQggAEAADAAwQAAAIEAGQAAABgQAIEEgA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttributeSet" Collapsed="true">
+    <Position X="102.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQAAQAAABQAAAAAJAAAAACACAAAAAAA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlElement" Collapsed="true">
+    <Position X="1" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAACACAAAJAAAAIYEAgQCAAA0BCBAAAAAEIFE=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlComment" Collapsed="true">
+    <Position X="3.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAIAAAAAAAAAAAAAAAQAAAAAAAAEIAAAAAAAEIBA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlText" Collapsed="true">
+    <Position X="5.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAABAAAAAAAAEAAAQBAAAABgAEAAAAAAAAEIBQ=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDeclaration" Collapsed="true">
+    <Position X="7.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAgACCAAAQAAAAAAAAAAQAAgAAAAIEAAAIIAAAEKBA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlUnknown" Collapsed="true">
+    <Position X="10" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAEAAAAAAAAAAAQACAAAAAAEAAAAAAIAEIBA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDocument" Collapsed="true">
+    <Position X="12.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAABBAQAQABAgEICQAAAAEQBAEBFAAAAEgUJBA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlHandle" Collapsed="true">
+    <Position X="104.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAEAAAIAAAEgAIQABAAAAAAAAAIEICAEAABA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlPrinter" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEABEhAQgBAAQAAAAMAAAAAAAAABQIBQAwAA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlParsingData" Collapsed="true">
+    <Position X="106" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQABAAEAAAAAAAAAAEEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxmlparser.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::LightDX" Collapsed="true">
+    <Position X="90.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAIAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Headers\gfx\LightDX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::MeshBuffer" Collapsed="true">
+    <Position X="104.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJQAAAAAAgAAAAAQAAAAAABhAQAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Headers\gfx\MeshBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::MS3DLoader" Collapsed="true">
+    <Position X="106" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgREgAgAAAAAgQAAAAAIAAgADACUAAAAAIAAABAA=</HashCode>
+      <FileName>Headers\gfx\MS3DLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::RendererDX" Collapsed="true">
+    <Position X="45.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KBLARBpIhiQTBY0GETBAOIAKBCgBAQsGoQRiChRRgWg=</HashCode>
+      <FileName>Headers\gfx\RendererDX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::ShaderDX" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAADACEAAAAAAAAAAgAAAAAAAIAAQIAABAAABBQAAA=</HashCode>
+      <FileName>Headers\gfx\ShaderDX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::TextureDX9" Collapsed="true">
+    <Position X="29.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAEAAABIoAAAAAgAAAAAAAAAAAABAgAQAAAAAQABAA=</HashCode>
+      <FileName>Headers\gfx\TextureDX9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::IndexBufferDX" Collapsed="true">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIABAAAAAAAAAAAAEAAAAAAAAAEQAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\gfx\IndexBufferDX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::VertexBufferDX" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQABAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\gfx\VertexBufferDX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Animation" Collapsed="true">
+    <Position X="99" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAARAAAAAAAAAAgAAAAgAAAgABAAAAABAAAAAAAAE=</HashCode>
+      <FileName>Include\gfx\Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Color" Collapsed="true">
+    <Position X="106" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAIAAEAAAAAAAACAAAAAgAAAEIA=</HashCode>
+      <FileName>Include\gfx\Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Colorf" Collapsed="true">
+    <Position X="107.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAACoAQABgAAAAAA=</HashCode>
+      <FileName>Include\gfx\Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Lighting" Collapsed="true">
+    <Position X="90.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAAAAAAAAAIAQAAAAIgAAAAAgAAAAAAAABBAA=</HashCode>
+      <FileName>Include\gfx\Lighting.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Material" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQAAAQgAAAAAAwAAAQQAAAAAABAAAAAAAEAAAAA=</HashCode>
+      <FileName>Include\gfx\Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Renderer" Collapsed="true">
+    <Position X="45.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="kge::Singleton&lt;T&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.051" Y="0.458" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>KASoBABBATGBEZUSFDBGC0ACBCCBAQsGxXzmglRQoCA=</HashCode>
+      <FileName>Include\gfx\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Shader" Collapsed="true">
+    <Position X="27.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QJAAAACAAACAAAgAAAAAAAAAAAAAAEAABBAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Texture" Collapsed="true">
+    <Position X="29.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIAQgAAAAACAAAAAAAAAAACAAAIAAAAAAYA=</HashCode>
+      <FileName>Include\gfx\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::HardwareBuffer" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAIAAABAAAAgQAAABBAABEAAAIAAAAAIAA=</HashCode>
+      <FileName>Include\gfx\HardwareBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Image" Collapsed="true">
+    <Position X="25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABgBABEgCQAAAAAAIEAABAAAAAABIAwAAAAEAQAAA=</HashCode>
+      <FileName>Include\gfx\Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::MeshManager" Collapsed="true">
+    <Position X="56.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAIAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\MeshManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::Tile" Collapsed="true">
+    <Position X="63.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAEAAACAAQAAAABEACBQAAEAAgAAY2AIAmCECQA=</HashCode>
+      <FileName>Include\gfx\Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gfx::TileTexture" Collapsed="true">
+    <Position X="65.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CcAAAAACAIYAAAAAgAAkAAAQACAAAAAAQxIAAgAEAAA=</HashCode>
+      <FileName>Include\gfx\TileTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::io::SdlWindow" Collapsed="true">
+    <Position X="92.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAABAAAAAAEAQAAAAAEAIAACAECAIAAAAI=</HashCode>
+      <FileName>Headers\io\SdlWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::io::Win32" Collapsed="true">
+    <Position X="94.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABgAgAAAAAEAAAAAAAAAMAACAACAAAAAAI=</HashCode>
+      <FileName>Headers\io\Win32.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::io::File" Collapsed="true">
+    <Position X="74.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAEIACACAAAAAAgAAAECAAAAAAAAACEAAA=</HashCode>
+      <FileName>Include\io\File.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::io::IWindow" Collapsed="true">
+    <Position X="93.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAECQAAAAAAAIAASAECIEAAAAI=</HashCode>
+      <FileName>Include\io\Iwindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::io::JoyStick" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAgAAAAAIAAAAAAAAAAAABABAAIAAAAABAAAAAAE=</HashCode>
+      <FileName>Include\io\JoyStick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::io::Keyboard" Collapsed="true">
+    <Position X="56.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAACAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\io\Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::io::Logger" Collapsed="true">
+    <Position X="100.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\io\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::io::Mouse" Collapsed="true">
+    <Position X="70" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAQAAgAIAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\io\Mouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::Char" Collapsed="true">
+    <Position X="104.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAQAQAAAAAAAAAAAACAAAAFwAAAAAEA=</HashCode>
+      <FileName>Headers\gui\Char.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::Button" Collapsed="true">
+    <Position X="88" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAKBAIBAECAAA=</HashCode>
+      <FileName>Include\gui\Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::Control" Collapsed="true">
+    <Position X="83.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIQAAgACAAAAIAIgAAAIAIAAAACAAAEIABQAAABAgBA=</HashCode>
+      <FileName>Include\gui\Control.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::EventArgs" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAA=</HashCode>
+      <FileName>Include\gui\Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::MouseEventArgs" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAYAA=</HashCode>
+      <FileName>Include\gui\Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::KeyEventArgs" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Include\gui\Events.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::Font" Collapsed="true">
+    <Position X="20.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAEABAAAAEAAAAQABAAAABQAACAGACAAE=</HashCode>
+      <FileName>Include\gui\Font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::GuiManager" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAARAAAIAAlEFAAAgACQAEAgAAAKAEABJBCgBA=</HashCode>
+      <FileName>Include\gui\GuiManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::Image" Collapsed="true">
+    <Position X="79" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAABIAABAABAAAAAA=</HashCode>
+      <FileName>Include\gui\Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::Splitter" Collapsed="true">
+    <Position X="81.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAgAAAAgAAAAAEAAAAAAAAAABAABABAAAA=</HashCode>
+      <FileName>Include\gui\Splitter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::Text" Collapsed="true">
+    <Position X="83.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAMgAAAGAAQAAAAAAAAAAAAAABAAAABDAAiAgIAAA=</HashCode>
+      <FileName>Include\gui\Text.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::gui::TextBox" Collapsed="true">
+    <Position X="85.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAIAAAAAAAAAAAAAAAAAAAAAABAABAACAAA=</HashCode>
+      <FileName>Include\gui\TextBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::ph::PhysXManager" Collapsed="true">
+    <Position X="0.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIIAAgQAQACCAIBAAAAAEACAAggQAgAAGAACAAAQ=</HashCode>
+      <FileName>Headers\ph\PhysXManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::ph::TileTerrainShapeX" Collapsed="true">
+    <Position X="15.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAEBAAAAAAAAAAAAQAAAAAAAAhACAAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\ph\TileTerrainShapeX.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::ph::DynamicTriangleMesh" Collapsed="true">
+    <Position X="76.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgEAAAAAAADQAAAAAQQABACCACAAAAA=</HashCode>
+      <FileName>Include\ph\DynamicTriangleMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::ph::TileTerrainShape" Collapsed="true">
+    <Position X="15.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\ph\TileTerrainShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::Device" Collapsed="true">
+    <Position X="49.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAREABQAACRxgghAQFCUAEAAAAACAQRAAiEICAAEI=</HashCode>
+      <FileName>Include\Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::Plugin" Collapsed="true">
+    <Position X="22.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Include\Plugin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::Resource" Collapsed="true">
+    <Position X="25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAIAEEAgAAAAAAAAAAQAACAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Include\Resource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::ResourceManager&lt;T&gt;" Collapsed="true">
+    <Position X="31.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAIAAAAAAAAAEAIAAAAAAAAAAAAACQAMAAA=</HashCode>
+      <FileName>Include\ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="56.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAABAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::KgeUnknown" Collapsed="true">
+    <Position X="48.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAEAABAAAEBAAABAAQAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Include\KgeUnknown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::math::AABB" Collapsed="true">
+    <Position X="97.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAIARBAACBBAAAAACACAgAAAAIBBAAGAAAAA=</HashCode>
+      <FileName>Include\math\AABB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::math::Frustum" Collapsed="true">
+    <Position X="99" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAEAQAIAAEAhAABAAAABgIAAAAAAAAIACwAIABAA=</HashCode>
+      <FileName>Include\math\Frustum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::math::Matrix" Collapsed="true">
+    <Position X="102.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAgFQgABAAAAMBIIARAAAAg0AEgAAMIGIgACYAI=</HashCode>
+      <FileName>Include\math\Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::math::Plane" Collapsed="true">
+    <Position X="107.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkggAABAAIAABAAAEAAAgACAAAAAAAAAAAI8CAAAAAA=</HashCode>
+      <FileName>Include\math\Plane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::math::Quat" Collapsed="true">
+    <Position X="97.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAcAUAAAAAAAAAAIACAAAAAAEIYZE=</HashCode>
+      <FileName>Include\math\Quat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::math::Sphere" Collapsed="true">
+    <Position X="100.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABAEIAQAAAAABQAAAIAIIAAAAAAAAAAgAiIAAA=</HashCode>
+      <FileName>Include\math\Sphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::math::Vector" Collapsed="true">
+    <Position X="107.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAEdAUAAAAAAAAAAAAAAFjkAQAAAqA=</HashCode>
+      <FileName>Include\math\Vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::math::Vector2&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAABAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Include\math\Vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::efx::BumpMap" Collapsed="true">
+    <Position X="0.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgEAAAAAQAAAAAAAQAAAAEQAABAAAUEAAAA=</HashCode>
+      <FileName>Include\efx\BumpMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::efx::Cartoon" Collapsed="true">
+    <Position X="3" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAQAAAAEAAABAAAAEABAA=</HashCode>
+      <FileName>Include\efx\Cartoon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::efx::Effect" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAAAAAAAAAAAAQAAAAEAAABAAAAEAAAA=</HashCode>
+      <FileName>Include\efx\Effect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::efx::MirrorPlane" Collapsed="true">
+    <Position X="5.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgABACAAAAgAAAAAAAAQAAAAEAAABACAAEAAAA=</HashCode>
+      <FileName>Include\efx\MirrorPlane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::efx::ShadowPlane" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAABCAAAAAgAAAAAAAAQAAAAMAAABACAAEAgAA=</HashCode>
+      <FileName>Include\efx\ShadowPlane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::AnimatedMesh">
+    <Position X="47.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>DZBAAEWAA5AEAwBARqAqWCQgQAAAAEYABJCCAAAmAAA=</HashCode>
+      <FileName>Include\sn\AnimatedMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::Bone" Collapsed="true">
+    <Position X="49.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAwAABAAAAAAEhAAAAAAgAAAAAAAIEAAElAAQAACAAA=</HashCode>
+      <FileName>Include\sn\Bone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::Camera" Collapsed="true">
+    <Position X="52" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ogFSAAAAAqEAAwAUQAgAEKBAECAAAkkIADgAgABDIBM=</HashCode>
+      <FileName>Include\sn\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::Light" Collapsed="true">
+    <Position X="54.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAwCAABAAAgAAAAAAAkAAABAAAAAmAAA=</HashCode>
+      <FileName>Include\sn\Light.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::Listener" Collapsed="true">
+    <Position X="34" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAwgAAAAAQAAAAAAAAkGAABAAAAACABA=</HashCode>
+      <FileName>Include\sn\Listener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::Mesh" Collapsed="true">
+    <Position X="36.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQARAAAooEAAwhggIACABAAAAgAAGAAAxAAhABCAAA=</HashCode>
+      <FileName>Include\sn\Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::SceneManager" Collapsed="true">
+    <Position X="99" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAGCCBJAFUAgIATAiAoAARAIAKgAAAQAgIABAAQ=</HashCode>
+      <FileName>Include\sn\SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::SceneNode" Collapsed="true">
+    <Position X="44.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cBQIREAABCCIEyAgAggAyABgAAOIAskQINIARgUCBAA=</HashCode>
+      <FileName>Include\sn\SceneNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::Sound3D" Collapsed="true">
+    <Position X="38.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAoAEAEggAAB2AAAAIAAACAAAAACmCAoBgAAAACAAA=</HashCode>
+      <FileName>Include\sn\Sound3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::StaticMesh" Collapsed="true">
+    <Position X="40.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAUQAAgBFAwAAQCACQAAAQAAAAEQABBAAAAACAAA=</HashCode>
+      <FileName>Include\sn\StaticMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::Decal" Collapsed="true">
+    <Position X="43" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUAEAAAAAgAARAIAAAAAAAAACEACExEAAABCEQA=</HashCode>
+      <FileName>Include\sn\Decal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::sn::TileTerrain" Collapsed="true">
+    <Position X="45.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gZLwREgKEC8AkyIIRAEUQA3ABY4KKEQMSLACggBmDJA=</HashCode>
+      <FileName>Include\sn\TileTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::av::SoundBuffer" Collapsed="true">
+    <Position X="72.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Include\av\SoundBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kge::ph::PhysManager" Collapsed="true">
+    <Position X="0.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAIAAgAAACAAAJAAAAAAAACAAAAQAgAAWAAAAEAQ=</HashCode>
+      <FileName>Include\ph\PhysManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="kge::core::CPUINFO_TYP" Collapsed="true">
+    <Position X="14.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAgAAIAAAIAAAEAAAAAAAQAAAAAAAQA=</HashCode>
+      <FileName>Headers\core\CPU.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::core::Rect&lt;T&gt;" Collapsed="true">
+    <Position X="19.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Include\core\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ms3dVertex" Collapsed="true">
+    <Position X="104.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAAAAEAAAAAAAQ=</HashCode>
+      <FileName>Headers\gfx\MS3DLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ms3dTriangle" Collapsed="true">
+    <Position X="102.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAABAAgAAAAAASAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Headers\gfx\MS3DLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ms3dGroup" Collapsed="true">
+    <Position X="97.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAAARAAAAAAgAgAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\gfx\MS3DLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ms3dMaterial" Collapsed="true">
+    <Position X="100.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAgIQAEAAAAAAAAAAAAAAAAAAAAAACAAAhBAA=</HashCode>
+      <FileName>Headers\gfx\MS3DLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ms3dJoint" Collapsed="true">
+    <Position X="99" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQggIACAAAAAAAAAIAAAAAAAAAAQIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\gfx\MS3DLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TiXmlCursor" Collapsed="true">
+    <Position X="99" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::AnimationData" Collapsed="true">
+    <Position X="97.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAQAAAABAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Include\gfx\Animation.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::Vertex2" Collapsed="true">
+    <Position X="102.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::Vertex3" Collapsed="true">
+    <Position X="104.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAcAEAAAAAAAAEAAAAAACAAAAAYAE=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::Vertex3C" Collapsed="true">
+    <Position X="106" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::Vertex3T" Collapsed="true">
+    <Position X="107.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::Vertex3TN" Collapsed="true">
+    <Position X="97.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAIAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::Vertex3TTN" Collapsed="true">
+    <Position X="100.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgIEAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::Vertex3TNC" Collapsed="true">
+    <Position X="99" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAIAAACAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::TextureInfo" Collapsed="true">
+    <Position X="107.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::LightData" Collapsed="true">
+    <Position X="107.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAACAAgAiAAAAAAAAAAAAAAAQFAAEAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::CustomVertexElement" Collapsed="true">
+    <Position X="99" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAgAAAEAAAIAAAAAQAAAAAAgAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::KeyFrame" Collapsed="true">
+    <Position X="106" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::gfx::Joint" Collapsed="true">
+    <Position X="100.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAwAgJACAAAAABAAAIAAAAAAAAAAQIAAAAAAAgAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::io::JS_AXIS" Collapsed="true">
+    <Position X="102.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAADAAAAAIABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\io\JoyStick.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::io::JS_INFO" Collapsed="true">
+    <Position X="104.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIACAAAAAACAAAAAQAAAEAAAAAAAAA=</HashCode>
+      <FileName>Include\io\JoyStick.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::math::Ray" Collapsed="true">
+    <Position X="106" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAAAAABAAgACAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\math\Ray.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::math::Triangle" Collapsed="true">
+    <Position X="100.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhAAAAAAAAAAAIAAIAAAAEAAAACAAAAA=</HashCode>
+      <FileName>Include\math\Triangle.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="kge::sn::TileTerrainData" Collapsed="true">
+    <Position X="97.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAABAAAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\sn\TileTerrain.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="kge::core::CPUINFO" Collapsed="true">
+    <Position X="14.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\core\CPU.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::u32" Collapsed="true">
+    <Position X="104.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\kgedef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::s32" Collapsed="true">
+    <Position X="99" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\kgedef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::ul32" Collapsed="true">
+    <Position X="107.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\kgedef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::u16" Collapsed="true">
+    <Position X="102.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\kgedef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::u8" Collapsed="true">
+    <Position X="106" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\kgedef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::core::RectI" Collapsed="true">
+    <Position X="20.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::core::RectUL" Collapsed="true">
+    <Position X="19.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\core\Structs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::gfx::CustomVertex" Collapsed="true">
+    <Position X="97.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\VertexDec.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::gfx::ShaderHandle" Collapsed="true">
+    <Position X="100.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Shader.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::math::Vector2F" Collapsed="true">
+    <Position X="10.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\math\Vector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="kge::math::Vector2I" Collapsed="true">
+    <Position X="7.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\math\Vector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_0111_1" Collapsed="true">
+    <Position X="97.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiXmlEncoding" Collapsed="true">
+    <Position X="99" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAA=</HashCode>
+      <FileName>Libs\TinyXML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::RendererAPI" Collapsed="true">
+    <Position X="102.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\Device.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::TransformMode" Collapsed="true">
+    <Position X="100.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::RenderFlags" Collapsed="true">
+    <Position X="104.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBAAAQAAAAAAAAQAAAAAYAAAAgAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::TextureParams" Collapsed="true">
+    <Position X="107.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAIgAAAAAAQAABgAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::GraphicCardCaps" Collapsed="true">
+    <Position X="102.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YhAAAAQAAAAgBABCCAAAAAAAQAABAAAAAAAAAQABAAA=</HashCode>
+      <FileName>Include\gfx\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::ShaderVersion" Collapsed="true">
+    <Position X="107.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAIgAA=</HashCode>
+      <FileName>Include\gfx\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::CullMode" Collapsed="true">
+    <Position X="102.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Renderer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::VertexType" Collapsed="true">
+    <Position X="107.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAgAAAQAAQAAAAAAAAAABEAAgAAEAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::LightType" Collapsed="true">
+    <Position X="104.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::FogType" Collapsed="true">
+    <Position X="99" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAgAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::VertexElementType" Collapsed="true">
+    <Position X="104.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAASAAAAAAAAAIAAAEAAgQAAEAAgCABQAIAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::VertexElementMethod" Collapsed="true">
+    <Position X="102.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAACkAEAAAAA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::VertexElementUsage" Collapsed="true">
+    <Position X="106" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FCoAAAAACBAAEAAABAAAAAAABAEAAAAAAAAAAAAAQiA=</HashCode>
+      <FileName>Include\gfx\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::CompressType" Collapsed="true">
+    <Position X="100.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAABAAAAEAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\Texture.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::TextureFormat" Collapsed="true">
+    <Position X="106" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAQ=</HashCode>
+      <FileName>Include\gfx\Texture.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::HardwareBufferType" Collapsed="true">
+    <Position X="104.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gfx\HardwareBuffer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::IndexBufferType" Collapsed="true">
+    <Position X="97.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Include\gfx\HardwareBuffer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::ImageFormat" Collapsed="true">
+    <Position X="106" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAEAAQAACAA=</HashCode>
+      <FileName>Include\gfx\Image.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::TileType" Collapsed="true">
+    <Position X="97.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Include\gfx\Tile.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gfx::ImageType" Collapsed="true">
+    <Position X="107.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\sn\SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::io::CURSOR_TYPES" Collapsed="true">
+    <Position X="104.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\io\Iwindow.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::io::JS_HAT" Collapsed="true">
+    <Position X="99" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAEAAgAAAAAABAAAAAAIAAAAAAAAQAACAAAA=</HashCode>
+      <FileName>Include\io\JoyStick.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::io::KEYS" Collapsed="true">
+    <Position X="102.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Chju/+CdHu6Z+J8ut////3/HiUIhTfz/eTzi/t/DCug=</HashCode>
+      <FileName>Include\io\Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::io::KEY_STATE" Collapsed="true">
+    <Position X="100.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Include\io\Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::io::LogMode" Collapsed="true">
+    <Position X="106" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAAQAA=</HashCode>
+      <FileName>Include\io\Logger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::io::MouseButton" Collapsed="true">
+    <Position X="107.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAIAAAAAECAAAAAAAACAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Include\io\Mouse.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gui::EventType" Collapsed="true">
+    <Position X="97.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAABAAAAAAAAAgCAAEAAAAAAAAECBAAAAAAAA=</HashCode>
+      <FileName>Include\gui\Events.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::gui::SplitMode" Collapsed="true">
+    <Position X="104.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\gui\Splitter.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::ph::PhysicsEngineType" Collapsed="true">
+    <Position X="99" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Include\ph\PhysManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::PluginType" Collapsed="true">
+    <Position X="100.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\Plugin.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::math::FrustumSide" Collapsed="true">
+    <Position X="100.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABAEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAAI=</HashCode>
+      <FileName>Include\math\Frustum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::math::CollisionType" Collapsed="true">
+    <Position X="99" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAARAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Include\math\math.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::efx::EffectType" Collapsed="true">
+    <Position X="107.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAACAAAAAAAAAICAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\efx\Effect.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::sn::RenderOrder" Collapsed="true">
+    <Position X="106" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Include\sn\SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::sn::NodeType" Collapsed="true">
+    <Position X="97.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABAACAAAAAAABAAAAAAYAAQBAAAgAEA=</HashCode>
+      <FileName>Include\sn\SceneNode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::av::SourceStates" Collapsed="true">
+    <Position X="99" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAAAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\av\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::av::SourceType" Collapsed="true">
+    <Position X="100.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Include\av\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::av::DistanceGainType" Collapsed="true">
+    <Position X="106" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAQACAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\av\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::av::SourceDistanceFactor" Collapsed="true">
+    <Position X="97.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Include\av\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="kge::av::SourceVolumeFactor" Collapsed="true">
+    <Position X="102.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include\av\Structs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
