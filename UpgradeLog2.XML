@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
 <Properties><Property Name="Solution" Value="KGE">
 </Property><Property Name="Solution File" Value="C:\Documents and Settings\Akbar\My Documents\Visual Studio 2005\Projects\KGE\KGE\KGE.sln">
 </Property><Property Name="User Options File" Value="C:\Documents and Settings\Akbar\My Documents\Visual Studio 2005\Projects\KGE\KGE\KGE.suo">
@@ -15,3 +15,4 @@
 </Event><Event ErrorLevel="0" Project="" Source="KGE.sln" Description="The solution file does not require conversion.">
 </Event><Event ErrorLevel="3" Project="" Source="KGE.sln" Description="No Conversion Required">
 </Event></UpgradeLog>
+
