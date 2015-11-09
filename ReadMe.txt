@@ -1,12 +1,12 @@
 ========================================================================
-    STATIC LIBRARY : KGE Project Overview
+    STATIC LIBRARY : Sourena Engine Project Overview
 ========================================================================
 
-AppWizard has created this KGE library project for you. 
+AppWizard has created this Sourena Engine library project for you. 
 No source files were created as part of your project.
 
 
-KGE.vcproj
+SourenaEngine.vcproj
     This is the main project file for VC++ projects generated using an Application Wizard. 
     It contains information about the version of Visual C++ that generated the file, and 
     information about the platforms, configurations, and project features selected with the
