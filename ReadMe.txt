@@ -2,6 +2,8 @@
     STATIC LIBRARY : Sourena Engine Project Overview
 ========================================================================
 
+Nothing to read here ... GO AWAY.
+Just kidding ... read the following sentences.
 AppWizard has created this Sourena Engine library project for you. 
 No source files were created as part of your project.
 
